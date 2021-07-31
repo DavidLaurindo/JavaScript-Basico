@@ -1,2 +1,2 @@
-# JavaScript Basico
- Curso JavaScript e Typescript básico/avançado 2021
+# JavaScript Básico
+ Curso JavaScript e Typescript básico/avançado 2021.
