@@ -36,7 +36,7 @@ ex: numero-- ou --numero . pode usar antes ou depois.
 converter:
 parseInt('5');
 parseFloat()
-Number()
+Number()git add .
 
 */
 
