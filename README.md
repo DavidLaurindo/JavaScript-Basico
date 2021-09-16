@@ -9,3 +9,5 @@
  Code Runner(Facilita para rodar o código em .JS - uma ponte entre VSCode e 
  .JS);
  code-runner: save file before run(Salvar automaticamente).
+***
+
