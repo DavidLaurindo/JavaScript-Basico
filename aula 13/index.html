@@ -10,9 +10,10 @@
     
     <script>
         const nome = prompt('Digite seu nome completo:');
-        document.body.innerHTML = `O seu nome é: ${nome}</br>`;
+        document.body.innerHTML = `O seu nome é: <strong>${nome}</strong></br>`;
         document.body.innerHTML += `Seu nome tem ${nome.length} letras</br>`;
-        document.body.innerHTML += `A segunda letra do seu nome é: ${nome.charAt(1)}</br>`;
+        document.body.innerHTML += `A segunda letra do seu nome é: 
+        ${nome[1]}</br>`;
         document.body.innerHTML += `A primeiro letra "a" está no índice: 
         ${nome.indexOf('a')} </br>`;
         document.body.innerHTML += `A última letra "a" está no índice: 
