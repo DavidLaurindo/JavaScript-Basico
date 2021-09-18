@@ -18,3 +18,5 @@ console.log(Number.isNaN(temp));//Está perguntando se isso é um NaN.
 let num3 = 0.7;
 let num4 = 0.1;
 console.log(num3 + num4);
+num3 += num4;
+console.log(num3)
