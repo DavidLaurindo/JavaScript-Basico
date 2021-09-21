@@ -45,4 +45,6 @@ console.log(alunos.slice(0, 3));//ele não pega o último número. vai até o n�
 console.log(alunos.slice(0, -2));//também pode ser feito com números negativos.
 
 console.log(typeof alunos);//object
-console.log(alunos instanceof Array);//alunos é uma instancia de array? está pergunta se é uma instancia de array. retorno: false ou true.
+console.log(alunos instanceof Array);//alunos é uma instancia de array? está pergunta se é uma instancia de array. retorno: false ou true. obs: A maiúsculo.
+
+//OBS podemos mudar o valor de um elemento na variável const quando o elemento for Array ou objeto. esses mesmo elementos são mutáveis, diferente das variáveis primitivas.
