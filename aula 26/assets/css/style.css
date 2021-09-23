@@ -61,7 +61,11 @@ form button:active{
     background: var(--primary-color-shine);
 }
 
-.paragrafo-resultado{
+.paragrafo-resultado, .bad{
     background-color: rgb(99, 197, 143);
     padding: 10px 20px;
+}
+
+.bad{
+    background:rgb(230, 97, 97);
 }
