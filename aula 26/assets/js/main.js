@@ -9,17 +9,36 @@ form.addEventListener('submit', function(evento){
     const peso = Number(inputPeso.value);
     const altura = Number(inputAltura.value);
 
-    console.log(peso, altura);
+    if(!peso){
+        setResultado('peso inválido', false);
+        return;
+    }
+
+    if(!altura){
+        setResultado('Altura inválida', false);
+        return;
+    }
+
+    const imc = getImc(peso, altura);
+    console.log(imc);
+
 });
+
+function getImc(peso, altura){
+    const imc = peso / altura ** 2;
+    return imc.toFixed(2);
+}
 
 function criaP(){
     const p = document.createElement('p');
     return p;
 }
 
-function setResultado(msg){
+function setResultado(msg, isValid){
     const resultado = document.querySelector('#resultado');
     resultado.innerHTML = '';
 
     const p = criaP();
+    p.innerHTML = msg;
+    resultado.appendChild(p);
 }
