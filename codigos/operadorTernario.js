@@ -7,6 +7,6 @@ const nivelUsuario = pontuacaoUsuario >= 1000? 'Usuário vip' :
 console.log(nivelUsuario);
 
 const corUsuario = 'null';
-const corPadrao = corUsuario || 'preta';//para no preimeiro item válido.
+const corPadrao = corUsuario || 'preta';//para no primeiro item válido.
 
 console.log(corPadrao);
