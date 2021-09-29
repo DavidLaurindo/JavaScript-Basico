@@ -30,8 +30,8 @@ function getDiaSemanaTexto(){
 }
 
 const data = new Date('1987-04-20 00:00:00');
-const diaSemana = data.getDay();
-const diaSemanaTexto = getDiaSemanaTexto
+let diaSemana = data.getDay();
+const diaSemanaTexto = getDiaSemanaTexto(diaSemana);
 
 console.log(diaSemana, diaSemanaTexto);
 
