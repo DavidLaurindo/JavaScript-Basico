@@ -1,5 +1,6 @@
-const h1 = document.querySelector(".container"); //Buscando o conatainer no html
-const data = new Date();//Criando objeto Date
+/*Maneira difícil
+const h1 = document.querySelector(".container");
+const data = new Date();
 
 function getDia(diaSemana) {//função get para tranformar o dia da semana.
     let diaSemanaTexto;//armazena o dia em String aqui.
@@ -96,3 +97,13 @@ function criaData(data) {
 }
 
 h1.innerHTML = criaData(data);
+*/
+
+
+const h1 = document.querySelector(".container h1");
+const data = new Date();
+const opcoes = {//pode colocar direto no tolocale(pt-br, aqui o que tá dentro das chaves).
+    dateStyle: 'full',
+    timeStyle: 'short'
+};
+h1.innerHTML = data.toLocaleString('pt-Br', opcoes);
