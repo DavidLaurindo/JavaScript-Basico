@@ -31,3 +31,14 @@ const nome = 'Renato';
 for(let valor of nome){//For of - pega o valor
     console.log(valor);
 };
+
+//--------------------------------------------
+//while
+console.log('While');
+
+let i = 0;
+while(i<=10){
+    console.log(i);
+    i++;
+}
+console.log('ssaiu do laço');
