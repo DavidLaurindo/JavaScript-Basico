@@ -42,3 +42,25 @@ while(i<=10){
     i++;
 }
 console.log('ssaiu do laço');
+
+//------------------------------------
+//Número aleatório
+function random(min, max){
+    const r = Math.random() * (max - min) + min;
+    return Math.floor(r);
+};
+
+console.log('Número aleatório');
+let rand = random(1,5);
+console.log(rand);
+
+//-----------------------------------
+//do while
+
+console.log('do while');
+let enquanto = 1;
+
+do{
+    console.log(`Repetiu ${enquanto} vezes.`);
+    enquanto++;
+}while(enquanto !== 10);
