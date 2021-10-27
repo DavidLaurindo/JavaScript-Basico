@@ -64,3 +64,19 @@ do{
     console.log(`Repetiu ${enquanto} vezes.`);
     enquanto++;
 }while(enquanto !== 10);
+
+//-----------------------------
+//BREAK E CONTINUE
+console.log('break e contine');
+
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for(let numero of numeros){
+    if(numero === 2){
+        continue;//pula para prox etapa do laço sem passar para baixo.
+    }
+    console.log(numero);
+    if(numero === 7){
+        break;//sai do laço antes de terminar.
+    }
+}
