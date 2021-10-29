@@ -13,7 +13,7 @@ try {
     console.log('Algo deu errado');
 
 };
-
+//------------------------------------------------------------
 try{
 //Executada quando não há erros
 }catch(e){
@@ -21,3 +21,5 @@ try{
 }finally{
 //Sempre será executado(mas pode ser omitido).
 }
+//----------------------------------------------------------------------
+
