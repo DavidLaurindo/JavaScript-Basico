@@ -13,3 +13,11 @@ try {
     console.log('Algo deu errado');
 
 };
+
+try{
+//Executada quando não há erros
+}catch(e){
+//Executada quando há erros
+}finally{
+//Sempre será executado(mas pode ser omitido).
+}
