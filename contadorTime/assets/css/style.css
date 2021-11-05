@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: wheat;
+}
+
+.container{
+    padding: 0px 15px 0px 15px;
+    position: absolute;
+    left: 50%;
+    background-color: white;
+}
+
+.relogio{
+    font-size: 3em;
+}
+
+.pausado{
+    color: red;
+}
