@@ -23,4 +23,4 @@ argumento(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 function conta(operador, acumulador, ...numeros){//depois do primeiro e segundo item, o resto ficará em um array por causa dos '...'(resto).
     console.log(`Operador:${operador} Acumulador:${acumulador} Números:${numeros}`);
 }
-conta('+', 0, 20, 30, 40, 50)
+conta('+', 0, 20, 30, 40, 50);
